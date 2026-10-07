@@ -2,6 +2,14 @@
 
 A modern and responsive fitness website designed for a fictional gym brand, focused on presenting its services, facilities, programs, and brand identity through a strong and engaging frontend experience.
 
+## Website
+
+[View Website](https://dilandevlabs.github.io/gym-website/)
+
+## Preview
+
+<img src="assets/preview.png" width="900">  
+
 ## Overview
 
 Apex Fitness is a frontend practice project built around a modern gym website. The design focuses on creating an energetic and professional experience while keeping the interface clear, structured, and easy to navigate.
