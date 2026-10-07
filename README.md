@@ -1,4 +1,4 @@
-# Gym Landing Page
+# Gym Website
 
 A modern and responsive fitness website designed for a fictional gym brand, focused on presenting its services, facilities, programs, and brand identity through a strong and engaging frontend experience.
 
