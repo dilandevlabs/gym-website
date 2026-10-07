@@ -1,0 +1,52 @@
+.btn {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: fit-content;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-primary);
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn--nav {
+  padding: 8px 15px;
+  background-color: var(--color-secondary-base);
+  border-radius: 2px;
+  color: var(--color-light);
+}
+
+.btn--nav:hover {
+  background-color: var(--color-secondary-dark);
+  transform: scale(1.05);
+}
+
+.btn--cta {
+  padding: 1rem 2rem;
+  background-color: var(--color-secondary-base);
+  border-radius: 50px;
+  color: var(--color-light);
+  animation: pulse 2s infinite;
+}
+
+.btn--cta:hover {
+  background-color: var(--color-secondary-dark);
+  transform: translateY(-3px);
+  animation: none;
+}
+
+.btn--full {
+  width: 100%;
+  margin-top: 1rem;
+  font-size: 1rem;
+  animation: none;
+}
+
+.btn__icon {
+  margin-left: 2rem;
+  height: 14px;
+}

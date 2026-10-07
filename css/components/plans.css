@@ -1,0 +1,33 @@
+.plans {
+  padding: 3rem;
+  background-color: var(--color-primary-base);
+  color: white;
+}
+
+.plans__title {
+  color: var(--color-secondary-base);
+  font-size: var(--font-size-sm);
+  margin-bottom: 1rem;
+}
+
+.plans__subtitle {
+  line-height: 2rem;
+  color: var(--color-light);
+  font-size: var(--font-size-h3);
+  font-family: var(--font-primary);
+  font-weight: bold;
+}
+
+.plans__description {
+  margin-top: 1rem;
+  color: var(--color-light)
+}
+
+.plans__container {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: end;
+  gap: 1rem;
+}

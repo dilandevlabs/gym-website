@@ -1,0 +1,38 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.form__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.form__label {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.form__input {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-family: var(--font-primary);
+  background-color: white;
+  color: var(--color-primary-base);
+}
+
+.form__input:focus {
+  outline: none;
+  border-color: var(--color-secondary-base);
+  box-shadow: 0 0 0 2px rgba(185, 151, 91, 0.2);
+}

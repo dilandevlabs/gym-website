@@ -1,0 +1,8 @@
+.u-important {
+  color: var(--color-secondary-base);
+  font-style: italic;
+}
+
+.u-text-center {
+  text-align: center;
+}

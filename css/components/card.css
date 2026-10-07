@@ -1,0 +1,72 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border: 1px rgba(0, 0, 0, 0.25) solid;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card--dark {
+  border-color: var(--color-secondary-base);
+}
+
+.card--dark * {
+  color: var(--color-light);
+}
+
+.card--special {
+  border-width: 3px;
+}
+
+.card--special::before {
+  content: "Más popular";
+  position: relative;
+  top: -1rem;
+  left: -1rem;
+  text-align: center;
+  font-family: var(--font-primary);
+  font-size: var(--font-size-sm);
+  font-weight: bold;
+  color: var(--color-text-base);
+  width: calc(100% + 2rem);
+  background-color: var(--color-secondary-base);
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card__content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card__title {
+  text-align: left;
+  font-size: var(--font-size-h6);
+  font-weight: bold;
+}
+
+.card__subtitle {
+  text-align: left;
+  font-size: var(--font-size-h5);
+  font-weight: bold;
+}
+
+.card__text {
+  text-align: left;
+  font-weight: 400;
+  font-size: var(--font-size-sm)
+}
+
+.card__image {
+  width: 100%;
+  aspect-ratio: 7 / 3;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}

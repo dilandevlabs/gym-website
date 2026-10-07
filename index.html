@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Apex Fitness. Construye la mejor versión de ti. Entrenamiento profesional, comunidad motivadora y resultados medibles.">
+        <title>Apex Fitness | Gimnasio y Entrenamiento</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <img src="icons/logo.svg" class="header__logo" alt="Logo de Apex Fitness">
+            <nav class="header__nav" id="navbar">
+                <div class="header__nav-links" id="nav-links">
+                    <a class="header__link" href="#inicio">Inicio</a>
+                    <a class="header__link" href="#programas">Programas</a>
+                    <a class="header__link" href="#info">Sobre Nosotros</a>
+                    <a class="header__link" href="#plans">Planes</a>
+                    <a class="header__link" href="#footer">Contacto</a>
+                </div>
+                <a href="#plans" class="btn btn--nav">Comenzar ahora</a>
+                 <a class="header__menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-links">
+                    <img src="icons/menu-toggle.svg" alt="Menú">
+                </a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <h1 class="hero__title">Construye la mejor versión de <span class="u-important">ti</span></h1>
+                <p class="hero__desc">Entrenamiento profesional, comunidad motivadora y resultados medibles.</p>
+                <a href="#plans" class="btn btn--cta">COMENZAR AHORA</a>
+            </section>
+            
+            <section class="features" id="inicio">
+                <article class="feature-card">
+                    <img class="feature-card__icon" src="icons/dumbbell.svg" alt="" aria-hidden="true" loading="lazy">
+                    <h2 class="feature-card__title">EQUIPAMIENTO MODERNO</h2>
+                    <p class="feature-card__text">Máquinas y zonas de entrenamiento de última generación</p>
+                </article>
+                <article class="feature-card">
+                    <img class="feature-card__icon" src="icons/person.svg" alt="" aria-hidden="true" loading="lazy">
+                    <h2 class="feature-card__title">ENTRENADORES CERTIFICADOS</h2>
+                    <p class="feature-card__text">Profesionales capacitados para guiarte en todo momento</p>
+                </article>
+                <article class="feature-card">
+                    <img class="feature-card__icon" src="icons/clock.svg" alt="" aria-hidden="true" loading="lazy">
+                    <h2 class="feature-card__title">HORARIOS FLEXIBLES</h2>
+                    <p class="feature-card__text">Entrena cuando mejor te quede, sin excusas</p>
+                </article>
+                <article class="feature-card">
+                    <img class="feature-card__icon" src="icons/people.svg" alt="" aria-hidden="true" loading="lazy">
+                    <h2 class="feature-card__title">COMUNIDAD ACTIVA</h2>
+                    <p class="feature-card__text">Personas con los mismos objetivos, juntos es mejor</p>
+                </article>
+            </section>
+            
+            <section class="programas" id="programas">
+                <div class="programas__divider">
+                    <h2 class="programas__title">NUESTROS PROGRAMAS</h2> 
+                    <span class="programas__subtitle">Encuentra el plan perfecto para ti</span>
+                    <p class="programas__description">Ya sea que busques ganar masa muscular, perder peso o mejorar tu rendimiento, tenemos el programa ideal para tus objetivos.</p>
+                    <a href="#plans" class="btn btn--cta programas__btn">Servicios <img class="btn__icon" src="icons/arrow-right.svg" alt="" aria-hidden="true"></a>
+                </div>
+                <div class="programas__grid">
+                    <article class="card">
+                        <img class="card__image" src="images/strength-training.jfif" alt="Entrenamiento de fuerza con pesas" loading="lazy">
+                        <div class="card__content">
+                            <h3 class="card__title">Entrenamiento de fuerza</h3>
+                            <p class="card__text">Gana músculo, aumenta tu energía y mejora tu rendimiento</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img class="card__image" src="images/weight-loss.avif" alt="Ejercicios para pérdida de peso" loading="lazy">
+                        <div class="card__content">
+                            <h3 class="card__title">Pérdida de peso</h3>
+                            <p class="card__text">Quema grasa, mejora tu salud y siéntete mejor</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img class="card__image" src="images/functional-training.jfif" alt="Sesión de entrenamiento funcional" loading="lazy">
+                        <div class="card__content">
+                            <h3 class="card__title">Entrenamiento funcional</h3>
+                            <p class="card__text">Mejora tu movilidad, resistencia y coordinación.</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img class="card__image" src="images/custom-plans.jfif" alt="Entrenador diseñando un plan personalizado" loading="lazy">
+                        <div class="card__content">
+                            <h3 class="card__title">Planes personalizados</h3>
+                            <p class="card__text">Rutinas adaptadas a tus objetivos, necesidades y nivel.</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img class="card__image" src="images/group.jfif" alt="Grupo entrenando en clase grupal" loading="lazy">
+                        <div class="card__content">
+                            <h3 class="card__title">Clases grupales</h3>
+                            <p class="card__text">Entrena, comparte y motívate con otros.</p>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img class="card__image" src="images/nutritional-counseling.jfif" alt="Consulta y asesoría nutricional" loading="lazy">
+                        <div class="card__content">
+                            <h3 class="card__title">Asesoría nutricional</h3>
+                            <p class="card__text">Alimenta tus resultados con planes reales y sostenibles</p>
+                        </div>
+                    </article>
+                </div>      
+            </section>
+
+            <section id="info" class="info">
+                <div class="info__divider">
+                    <img class="info__img" src="images/gym.jfif" alt="Instalaciones del gimnasio Apex Fitness" loading="lazy">
+                    <div class="info__content">
+                        <h2 class="info__title">SOBRE NOSOTROS</h2> 
+                        <span class="info__subtitle">Más que un gimnasio, una comunidad</span>
+                        <p class="info__description">En Apex Fitness creemos en el poder de la disciplina, el esfuerzo y el apoyo de los demás. Somos un espacio donde puedes entrenar, crecer y alcanzar tus metas, sin importar tu nivel.</p>
+                        <div class="info__item-container">
+                            <div class="info__item">
+                                <img src="icons/calendar.svg" class="info__icon" alt="" aria-hidden="true">
+                                <span class="info__item__text">Constancia</span>
+                            </div>
+                            <div class="info__item">
+                                <img src="icons/graph-up.svg" class="info__icon" alt="" aria-hidden="true">
+                                <span class="info__item__text">Progreso</span>
+                            </div>
+                            <div class="info__item">
+                                <img src="icons/people.svg" class="info__icon" alt="" aria-hidden="true">
+                                <span class="info__item__text">Comunidad</span>
+                            </div>
+                            <div class="info__item">
+                                <img src="icons/hearth.svg" class="info__icon" alt="" aria-hidden="true">
+                                <span class="info__item__text">Salud</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="testimonials" class="testimonials">
+                <h2 class="testimonials__title">TESTIMONIOS</h2>
+                <span class="testimonials__subtitle">Historias reales, resultados reales</span>
+                <div class="testimonials__container">
+                    <article class="testimony">
+                        <img src="images/profile-photo-1.jfif" class="testimony__profile-photo" alt="Foto de perfil de Valentina G." loading="lazy">
+                        <div class="testimony__container">
+                            <p class="testimony__text">"En 3 meses cambié por completo mi rutina, mi energía y mi forma de ver el ejercicio. Los entrenadores son increíbles."</p>
+                            <span class="testimony__user">Valentina G.</span>
+                            <span class="testimony__member-date">Miembro desde 2024</span>
+                            <div class="qualification" aria-label="Calificación 5 de 5 estrellas">
+                                <img src="icons/full-star.svg" alt="" aria-hidden="true">
+                                <img src="icons/full-star.svg" alt="" aria-hidden="true">
+                                <img src="icons/full-star.svg" alt="" aria-hidden="true">
+                                <img src="icons/full-star.svg" alt="" aria-hidden="true">
+                                <img src="icons/full-star.svg" alt="" aria-hidden="true">
+                            </div>
+                        </div>
+                    </article>
+                    <article class="testimony">
+                        <img src="images/profile-photo-2.jpeg" class="testimony__profile-photo" alt="Foto de perfil de Juan David R." loading="lazy">
+                        <div class="testimony__container">
+                            <p class="testimony__text">"El ambiente es motivador, el equipo es de primera y los resultados se notan. Totalmente recomendado."</p>
+                            <span class="testimony__user">Juan David R.</span>
+                            <span class="testimony__member-date">Miembro desde 2023</span>
+                            <div class="qualification" aria-label="Calificación 5 de 5 estrellas">
+                                <img src="icons/full-star.svg" alt="" aria-hidden="true">
+                                <img src="icons/full-star.svg" alt="" aria-hidden="true">
+                                <img src="icons/full-star.svg" alt="" aria-hidden="true">
+                                <img src="icons/full-star.svg" alt="" aria-hidden="true">
+                                <img src="icons/full-star.svg" alt="" aria-hidden="true">
+                            </div>
+                        </div>
+                    </article>
+                    <article class="testimony">
+                        <img src="images/profile-photo-3.jfif" class="testimony__profile-photo" alt="Foto de perfil de Carlos M." loading="lazy">
+                        <div class="testimony__container">
+                            <p class="testimony__text">"Nunca había disfrutado tanto el gimnasio, los planes personalizados realmente funcionan."</p>
+                            <span class="testimony__user">Carlos M.</span>
+                            <span class="testimony__member-date">Miembro desde 2024</span>
+                            <div class="qualification" aria-label="Calificación 5 de 5 estrellas">
+                                <img src="icons/full-star.svg" alt="" aria-hidden="true">
+                                <img src="icons/full-star.svg" alt="" aria-hidden="true">
+                                <img src="icons/full-star.svg" alt="" aria-hidden="true">
+                                <img src="icons/full-star.svg" alt="" aria-hidden="true">
+                                <img src="icons/full-star.svg" alt="" aria-hidden="true">
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="plans" class="plans">
+                <div>
+                    <h2 class="plans__title">PLANES Y PRECIOS</h2>
+                    <span class="plans__subtitle">Tu objetivo, nuestro plan</span>
+                    <p class="plans__description">Elige el plan que mejor se adapte a ti. Todos incluyen acceso a las instalaciones, seguimiento y asesoría básica.</p>
+                </div>
+                <div class="plans__container">
+                    <article class="card card--dark card__content">
+                        <h3 class="card__title">Básico</h3>
+                        <span class="card__text">Ideal para empezar</span>
+                        <span class="card__subtitle">$89.000 <span class="card__text">/ mes</span></span>
+                        <ul>
+                            <li>Acceso a las instalaciones</li>
+                            <li>Horarios flexibles</li>
+                            <li>Asesoría básica</li>
+                        </ul>
+                    </article>
+                    <article class="card card--dark card--special card__content">
+                        <h3 class="card__title">Estándar</h3>
+                        <span class="card__text">Mayor progreso</span>
+                        <span class="card__subtitle">$129.000 <span class="card__text">/ mes</span></span>
+                        <ul>
+                            <li>Todo lo del plan básico</li>
+                            <li>Entrenamiento personalizado</li>
+                            <li>1 asesoría nutricional al mes</li>
+                        </ul>
+                    </article>
+                    <article class="card card--dark card__content">
+                        <h3 class="card__title">Premium</h3>
+                        <span class="card__text">Resultados máximos</span>
+                        <span class="card__subtitle">$179.000 <span class="card__text">/ mes</span></span>
+                        <ul>
+                            <li>Todo lo del plan estándar</li>
+                            <li>Entrenamiento personalizado</li>
+                            <li>Asesoría nutricional mensual</li>
+                            <li>Clases grupales ilimitadas</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+
+            <section id="faq" class="faq">
+                <h2 class="faq__title">PREGUNTAS FRECUENTES</h2>
+                <span class="faq__subtitle">Resuelve tus dudas</span>
+                <div class="faq__questions">
+                    <div class="faq__question-content">
+                        <p class="faq__question">¿Cuáles son los horarios de atención? <span class="faq__toggle"><span class="faq__more">+</span><span class="faq__less">-</span></span></p>
+                        <div class="faq__answer-wrapper">
+                            <span class="faq__answer">Nuestro horario de atención es de lunes a viernes de 6:00 a.m. a 10:00 p.m., y los fines de semana de 8:00 a.m. a 4:00 p.m.</span>
+                        </div>
+                    </div>
+
+                    <div class="faq__question-content">
+                        <p class="faq__question">¿Puedo congelar mi membresía si me voy de viaje? <span class="faq__toggle"><span class="faq__more">+</span><span class="faq__less">-</span></span></p>
+                        <div class="faq__answer-wrapper">
+                            <span class="faq__answer">Sí, puedes congelar tu membresía hasta por 30 días al año sin costo adicional, notificando con al menos 48 horas de anticipación.</span>
+                        </div>
+                    </div>
+
+                    <div class="faq__question-content">
+                        <p class="faq__question">¿Tienen servicio de entrenador personal? <span class="faq__toggle"><span class="faq__more">+</span><span class="faq__less">-</span></span></p>
+                        <div class="faq__answer-wrapper">
+                            <span class="faq__answer">Contamos con entrenadores personales certificados disponibles en diferentes horarios. Este servicio tiene un costo adicional a la mensualidad.</span>
+                        </div>
+                    </div>
+
+                    <div class="faq__question-content">
+                        <p class="faq__question">¿Cuáles son los métodos de pago aceptados? <span class="faq__toggle"><span class="faq__more">+</span><span class="faq__less">-</span></span></p>
+                        <div class="faq__answer-wrapper">
+                            <span class="faq__answer">Aceptamos tarjetas de crédito, débito, transferencias bancarias y pagos en efectivo directamente en nuestra recepción.</span>
+                        </div>
+                    </div>
+
+                    <div class="faq__question-content">
+                        <p class="faq__question">¿Hay estacionamiento disponible para los socios? <span class="faq__toggle"><span class="faq__more">+</span><span class="faq__less">-</span></span></p>
+                        <div class="faq__answer-wrapper">
+                            <span class="faq__answer">Sí, contamos con estacionamiento gratuito para todos nuestros socios durante su tiempo de entrenamiento.</span>
+                        </div>
+                    </div>
+
+                    <div class="faq__more-container" id="faq-more-container">
+                        <div class="faq__more-container-inner">
+                            <div class="faq__question-content">
+                                <p class="faq__question">¿A partir de qué edad se pueden inscribir? <span class="faq__toggle"><span class="faq__more">+</span><span class="faq__less">-</span></span></p>
+                                <div class="faq__answer-wrapper">
+                                    <span class="faq__answer">La edad mínima para inscribirse es de 14 años. Los menores de edad deben contar con la autorización firmada por un padre o tutor legal.</span>
+                                </div>
+                            </div>
+
+                            <div class="faq__question-content">
+                                <p class="faq__question">¿Ofrecen clases grupales? <span class="faq__toggle"><span class="faq__more">+</span><span class="faq__less">-</span></span></p>
+                                <div class="faq__answer-wrapper">
+                                    <span class="faq__answer">Sí, ofrecemos una variedad de clases grupales que incluyen yoga, pilates, spinning y zumba, todas incluidas en tu membresía básica.</span>
+                                </div>
+                            </div>
+
+                            <div class="faq__question-content">
+                                <p class="faq__question">¿Qué debo llevar para mi primer día? <span class="faq__toggle"><span class="faq__more">+</span><span class="faq__less">-</span></span></p>
+                                <div class="faq__answer-wrapper">
+                                    <span class="faq__answer">Te recomendamos llevar ropa y calzado deportivo cómodo, una toalla personal, botella de agua y tu documento de identidad para el registro.</span>
+                                </div>
+                            </div>
+
+                            <div class="faq__question-content">
+                                <p class="faq__question">¿Cómo puedo cancelar mi suscripción? <span class="faq__toggle"><span class="faq__more">+</span><span class="faq__less">-</span></span></p>
+                                <div class="faq__answer-wrapper">
+                                    <span class="faq__answer">Para cancelar tu suscripción, debes enviar una solicitud formal desde tu portal de usuario o en recepción con 15 días de anticipación a tu próximo corte.</span>
+                                </div>
+                            </div>
+
+                            <div class="faq__question-content">
+                                <p class="faq__question">¿Tienen vestidores y duchas? <span class="faq__toggle"><span class="faq__more">+</span><span class="faq__less">-</span></span></p>
+                                <div class="faq__answer-wrapper">
+                                    <span class="faq__answer">Nuestras instalaciones cuentan con vestidores completos, duchas con agua caliente y casilleros de uso diario gratuitos.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="faq__btn-toggle" id="faq-btn-toggle">Mostrar más</a>
+            </section>
+        </main>
+        
+        <footer class="footer" id="footer">
+            <div class="footer__main">
+                <div class="footer__brand">
+                    <img src="icons/logo.svg" class="footer__logo" alt="Logo de Apex Fitness">
+                    <span class="footer__legend">Tu mejor versión empieza hoy</span>
+                </div>
+                <address class="footer__contact">
+                    <div class="footer__contact__item">
+                        <img class="footer__icon--spaced" src="icons/ubication.svg" alt="" aria-hidden="true">
+                        <div class="footer__section" id="explora">
+                            <span class="footer__title">Dirección</span>
+                            <p>Calle 12345</p>
+                        </div>
+                    </div>
+                    <div class="footer__contact__item">
+                        <img class="footer__icon--spaced" src="icons/phone.svg" alt="" aria-hidden="true">
+                        <div class="footer__section">
+                            <span class="footer__title">Teléfono</span>
+                            <p><a href="tel:+573227699110">+57 322 7699110</a></p>
+                        </div>
+                    </div>
+                    <div class="footer__contact__item">
+                        <img class="footer__icon--spaced" src="icons/email.svg" alt="" aria-hidden="true">
+                        <div class="footer__section">
+                            <span class="footer__title">Correo</span>
+                            <p><a href="mailto:dilandevlabs@gmail.com">dilandevlabs@gmail.com</a></p>
+                        </div>
+                    </div>
+                </address>
+                <div class="footer__schedule">
+                    <span class="footer__title">Horarios de atención</span>
+                    <p>Lunes a Viernes 5:00 AM - 10:00 PM</p>
+                    <p>Sábado 8:00 AM - 8:00 PM</p>
+                    <p>Domingo 7:00 AM - 2:00 PM</p>
+                </div>
+            </div>
+            <hr class="footer__divider">
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2026 Dilan Dev Labs. Todos los derechos reservados</p>
+                <div class="footer__socials" id="siguenos">
+                    <span class="footer__title">SÍGUENOS</span>
+                    <div class="footer__social-links">
+                        <a class="footer__social" href="https://github.com" aria-label="Visitar nuestro perfil de Github">
+                            <img src="icons/github.svg" class="footer__icon" alt="" aria-hidden="true">
+                        </a>
+                        <a class="footer__social" href="https://instagram.com" aria-label="Visitar nuestro perfil de Instagram">
+                            <img src="icons/instagram.svg" class="footer__icon" alt="" aria-hidden="true">
+                        </a>
+                        <a class="footer__social" href="https://whatsapp.com" aria-label="Contactarnos a través de WhatsApp">
+                            <img src="icons/whatsapp.svg" class="footer__icon" alt="" aria-hidden="true">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
